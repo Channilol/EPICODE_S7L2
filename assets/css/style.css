@@ -6,11 +6,11 @@ body {
 }
 
 main {
-    width: 500px;
+    width: 600px;
     margin: 50px auto;
     padding: 0 40px 40px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     border-radius: 5px;
     background-color: rgb(241, 241, 241);
@@ -18,7 +18,7 @@ main {
 }
 
 main > div {
-    width: 50%;
+    width: 45%;
 }
 
 main h1 {
@@ -57,7 +57,6 @@ li {
 }
 
 #savedNamesContainer {
-    width: 150px;
     margin: 0 auto;
     padding: 25px;
     border-radius: 5px;
@@ -66,6 +65,7 @@ li {
 }
 
 #nameInput {
+    width: 200px;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
